@@ -35,7 +35,7 @@ jobs:
    - name: download files
      uses: actions/download-artifact@v3
      with:
-      name: download
+      name: production
       path: ./build
    - name: deploy to github page
      uses: crazy-max/ghaction-github-pages@v3
